@@ -1,0 +1,18 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+        "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+
+<module rename-to="S4v">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='web.s4v.client.S4v'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/S4vService' class='web.s4v.server.S4vServiceImpl'/>
+
+    <source path='client'/>
+    <source path='shared'/>
+</module>
